@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.card {
+    
+    /*border: 1px solid #ddd;*/
+    padding: 10px;
+    text-align:left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}       
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+    
+}
+
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    background: red;
+    color: white;
+    font-weight: bold;
+
+    padding: 6px 10px;
+    border-radius: 4px;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.btn-activo {
+    background-color: #b536ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+}
+
+.btn-desactivado {
+    background-color: #ccc;
+    color: #666;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: not-allowed;
+    width: 100%;
+    display: block;
+}

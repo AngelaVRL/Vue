@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Buzo Half Zipper Crop",
+    "price": 119900,
+    "stock": true,
+    "discount": 20,
+    "Category": "Buzo",
+    "image": "./img/Buzos.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Falda Larga",
+    "price": 149900,
+    "stock": true,
+    "discount": null,
+    "Category": "Falda",
+    "image": "./img/FaldaLarga.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Camiseta off Shoulder",
+    "price": 89900,
+    "stock": false,
+    "discount": 50,
+    "Category": "Camiseta",
+    "image": "./img/Camiseta.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Chaleco Sastre",
+    "price": 149900,
+    "stock": true,
+    "discount": null,
+    "Category":"Chaleco",
+    "image": "./img/chaleco.jpg"
+  },
+{
+    "id": 5,
+    "name": "Vestido midi",
+    "price": 129900,
+    "stock": true,
+    "discount": 25,
+    "Category":"Vestido",
+    "image": "./img/Vestido.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Jean Tono Medio",
+    "price": 169900,
+    "stock": true,
+    "discount": null,
+    "Category": "Jean",
+    "image": "./img/Jean.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Blusa Escote",
+    "price": 119900,
+    "stock": true,
+    "discount": null,
+    "Category":"Blusa",
+    "image": "./img/Blusa.jpg"
+  }
+
+]
