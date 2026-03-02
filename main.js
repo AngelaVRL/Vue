@@ -41,7 +41,6 @@ createApp({
     <div class="container">
       <h1>Tienda de Ropa</h1>
 
-      <!-- v-model -->
       <input
         type="text"
         placeholder="Buscar producto..."
